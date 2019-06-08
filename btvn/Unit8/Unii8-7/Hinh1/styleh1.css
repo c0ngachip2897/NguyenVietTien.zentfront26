@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    margin: 0;
+}
+
+#wrapper {
+    background: rgb(112, 143, 161);
+    background-size: cover;
+    width: 100%;
+}
+#content {
+    background: rgb(134, 219, 134);
+    opacity: 0.9;
+    margin: auto;
+}
+#content h1 {
+    text-align: center;
+    width: 100%;
+    opacity: 1;
+    background: gray;
+}
+#content input, label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#result {
+    width: 100%;
+    font-size: 150%;
+    background: yellow;
+}
+@media screen and (min-width: 768px) {
+    #content {
+        width: 60%;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #content {
+        width: 100%;
+    }
+}
