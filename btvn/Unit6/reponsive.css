@@ -29,6 +29,10 @@
     .contact-info{
         width: 90%;
     }
+    .info .img{
+        width: 100%;
+    }
+    }
 }
 @media only screen and (max-width: 550px) {
     .info{
@@ -62,5 +66,23 @@
     }
     .header-logo img{
         width: 20%;
+    }
+    .bg1{
+        width: 100%;
+        }
+    .bg2{
+        width: 100%;
+    }
+    .bg3{
+        width: 100%;
+    }
+    .bg4{
+        width: 100%;
+    }
+    .bg5{
+        width: 100%;
+    }
+    .bg6{
+        width: 100%;
     }
 }
