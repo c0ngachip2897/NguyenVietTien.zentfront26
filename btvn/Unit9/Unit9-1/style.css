@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-size: cover;
+    background: rgb(211, 206, 206);
+}
+#content {
+    width: 40%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+.tabs {
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+}
+.tab {
+    width: 10%;
+    float: left;
+    margin-right: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: rgb(57, 57, 134);
+    text-align: center;
+    font-weight: bold;
+}
+#btnTab1 {
+    background-color: white;
+}
+#btnTab2 {
+    color: white;
+}
+#btnTab3 {
+    color: white;
+}
+
+.boxContent {
+    width: 100%;
+    height: 90%;
+    padding: 1%;
+    box-sizing: border-box;
+    background: white;
+}
+#contentTab1 {
+    display: block;
+}
+#contentTab2 {
+    display: none;
+}
+#contentTab3 {
+    display: none;
+}
